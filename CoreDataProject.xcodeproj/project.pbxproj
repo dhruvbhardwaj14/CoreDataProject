@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86511E84289A93C3001A8625 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86511E80289A93C3001A8625 /* Country+CoreDataClass.swift */; };
+		86511E85289A93C3001A8625 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86511E81289A93C3001A8625 /* Country+CoreDataProperties.swift */; };
+		86511E86289A93C3001A8625 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86511E82289A93C3001A8625 /* Candy+CoreDataClass.swift */; };
+		86511E87289A93C3001A8625 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86511E83289A93C3001A8625 /* Candy+CoreDataProperties.swift */; };
+		8653D88528997DC100B71244 /* FilteredListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653D88428997DC100B71244 /* FilteredListView.swift */; };
 		865F42F1288E9A42005AF094 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F42F0288E9A42005AF094 /* CoreDataProjectApp.swift */; };
 		865F42F3288E9A42005AF094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F42F2288E9A42005AF094 /* ContentView.swift */; };
 		865F42F5288E9A45005AF094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865F42F4288E9A45005AF094 /* Assets.xcassets */; };
 		865F42F8288E9A45005AF094 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865F42F7288E9A45005AF094 /* Preview Assets.xcassets */; };
+		865F42FF288E9AED005AF094 /* Datacontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F42FE288E9AED005AF094 /* Datacontroller.swift */; };
+		865F4302288E9B08005AF094 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 865F4300288E9B08005AF094 /* CoreDataProject.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86511E80289A93C3001A8625 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86511E81289A93C3001A8625 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86511E82289A93C3001A8625 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86511E83289A93C3001A8625 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8653D88428997DC100B71244 /* FilteredListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredListView.swift; sourceTree = "<group>"; };
 		865F42ED288E9A42005AF094 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865F42F0288E9A42005AF094 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		865F42F2288E9A42005AF094 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		865F42F4288E9A45005AF094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865F42F7288E9A45005AF094 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		865F42FE288E9AED005AF094 /* Datacontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datacontroller.swift; sourceTree = "<group>"; };
+		865F4301288E9B08005AF094 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				865F42F0288E9A42005AF094 /* CoreDataProjectApp.swift */,
 				865F42F2288E9A42005AF094 /* ContentView.swift */,
+				86511E80289A93C3001A8625 /* Country+CoreDataClass.swift */,
+				86511E81289A93C3001A8625 /* Country+CoreDataProperties.swift */,
+				86511E82289A93C3001A8625 /* Candy+CoreDataClass.swift */,
+				86511E83289A93C3001A8625 /* Candy+CoreDataProperties.swift */,
+				8653D88428997DC100B71244 /* FilteredListView.swift */,
+				865F4300288E9B08005AF094 /* CoreDataProject.xcdatamodeld */,
+				865F42FE288E9AED005AF094 /* Datacontroller.swift */,
 				865F42F4288E9A45005AF094 /* Assets.xcassets */,
 				865F42F6288E9A45005AF094 /* Preview Content */,
 			);
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				865F42F3288E9A42005AF094 /* ContentView.swift in Sources */,
+				865F42FF288E9AED005AF094 /* Datacontroller.swift in Sources */,
+				86511E85289A93C3001A8625 /* Country+CoreDataProperties.swift in Sources */,
+				86511E84289A93C3001A8625 /* Country+CoreDataClass.swift in Sources */,
+				8653D88528997DC100B71244 /* FilteredListView.swift in Sources */,
+				865F4302288E9B08005AF094 /* CoreDataProject.xcdatamodeld in Sources */,
+				86511E87289A93C3001A8625 /* Candy+CoreDataProperties.swift in Sources */,
 				865F42F1288E9A42005AF094 /* CoreDataProjectApp.swift in Sources */,
+				86511E86289A93C3001A8625 /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +365,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		865F4300288E9B08005AF094 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				865F4301288E9B08005AF094 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 865F4301288E9B08005AF094 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 865F42E5288E9A42005AF094 /* Project object */;
 }
